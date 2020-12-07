@@ -9,8 +9,32 @@
       }
     },
     {
-      "method": "PUT",
+      "method": "GET",
+      "path": "/devices/count",
+      "handler": "devices.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/devices/:id",
+      "handler": "devices.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
       "path": "/devices",
+      "handler": "devices.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/devices/:id",
       "handler": "devices.update",
       "config": {
         "policies": []
@@ -18,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/devices",
+      "path": "/devices/:id",
       "handler": "devices.delete",
       "config": {
         "policies": []

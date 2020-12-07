@@ -1,9 +1,8 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "devices",
   "info": {
-    "name": "Devices",
-    "description": ""
+    "name": "devices"
   },
   "options": {
     "increments": true,
@@ -11,15 +10,14 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Description": {
-      "type": "richtext"
+    "description": {
+      "type": "string"
     },
     "deviceKind": {
       "type": "dynamiczone",
       "components": [
         "players.mediaplayer"
-      ],
-      "max": 1
+      ]
     }
   }
 }
