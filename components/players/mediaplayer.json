@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_players_mediaplayers",
+  "info": {
+    "name": "mediaplayer",
+    "icon": "film",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "files": {
+      "type": "component",
+      "repeatable": true,
+      "component": "players.files"
+    }
+  }
+}

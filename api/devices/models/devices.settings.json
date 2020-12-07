@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "devices",
+  "info": {
+    "name": "Devices",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Description": {
+      "type": "richtext"
+    },
+    "deviceKind": {
+      "type": "dynamiczone",
+      "components": [
+        "players.mediaplayer"
+      ],
+      "max": 1
+    }
+  }
+}

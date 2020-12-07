@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_players_files",
+  "info": {
+    "name": "files",
+    "icon": "file-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "command": {
+      "type": "text"
+    }
+  }
+}
