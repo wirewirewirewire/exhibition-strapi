@@ -18,8 +18,8 @@
       "plugin": "upload",
       "required": false
     },
-    "command": {
-      "type": "text"
+    "fileconfig": {
+      "type": "json"
     }
   }
 }

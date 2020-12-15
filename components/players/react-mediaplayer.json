@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_players_react_mediaplayers",
+  "info": {
+    "name": "react-mediaplayer",
+    "icon": "kiwi-bird",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "files": {
+      "type": "component",
+      "repeatable": true,
+      "component": "players.files"
+    },
+    "introbackground": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "mainvideolink": {
+      "type": "string"
+    },
+    "secondaryvideolink": {
+      "type": "string"
+    },
+    "mainvideotext": {
+      "type": "string"
+    },
+    "secondaryvideotext": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

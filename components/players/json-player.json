@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_players_json_players",
+  "info": {
+    "name": "json-player",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "json": {
+      "type": "json"
+    }
+  }
+}
