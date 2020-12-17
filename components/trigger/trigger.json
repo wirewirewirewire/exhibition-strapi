@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_trigger_triggers",
+  "info": {
+    "name": "Trigger",
+    "icon": "gamepad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "customFunction": {
+      "type": "text"
+    },
+    "gpio": {
+      "type": "integer"
+    }
+  }
+}
