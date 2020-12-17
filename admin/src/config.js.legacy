@@ -1,0 +1,4 @@
+import MyLogo from "./assets/images/logo_strapi.png";
+
+export const LOGIN_LOGO = MyLogo;
+export const SHOW_TUTORIALS = false;
