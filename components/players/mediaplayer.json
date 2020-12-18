@@ -16,6 +16,9 @@
       "type": "component",
       "repeatable": true,
       "component": "trigger.trigger"
+    },
+    "mainFunction": {
+      "type": "text"
     }
   }
 }
