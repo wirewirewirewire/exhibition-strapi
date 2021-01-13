@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/partizipations",
+      "handler": "partizipation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/partizipations/count",
+      "handler": "partizipation.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/partizipations/:id",
+      "handler": "partizipation.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/partizipations",
+      "handler": "partizipation.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/partizipations/:id",
+      "handler": "partizipation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/partizipations/:id",
+      "handler": "partizipation.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

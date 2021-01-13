@@ -19,7 +19,9 @@
       "components": [
         "players.mediaplayer",
         "players.react-mediaplayer",
-        "players.json-player"
+        "players.json-player",
+        "players.files",
+        "players.mediastation-bewegungen"
       ]
     }
   }

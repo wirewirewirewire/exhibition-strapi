@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partizipations",
+  "info": {
+    "name": "Partizipation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Question": {
+      "type": "biginteger"
+    }
+  }
+}

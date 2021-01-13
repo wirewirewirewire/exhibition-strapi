@@ -37,6 +37,9 @@
     },
     "color": {
       "type": "string"
+    },
+    "textColor": {
+      "type": "string"
     }
   }
 }

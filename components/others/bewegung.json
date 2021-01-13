@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_others_bewegungs",
+  "info": {
+    "name": "bewegung",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "content_en": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "string"
+    },
+    "date_en": {
+      "type": "string"
+    },
+    "fromto": {
+      "type": "string"
+    },
+    "fromto_en": {
+      "type": "string"
+    },
+    "top": {
+      "type": "decimal"
+    },
+    "left": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_players_mediastation_bewegungens",
+  "info": {
+    "name": "mediastation-bewegungen",
+    "icon": "location-arrow"
+  },
+  "options": {},
+  "attributes": {
+    "bewegung": {
+      "type": "component",
+      "repeatable": true,
+      "component": "others.bewegung"
+    }
+  }
+}
