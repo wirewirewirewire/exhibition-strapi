@@ -40,6 +40,12 @@
     },
     "textColor": {
       "type": "string"
+    },
+    "overviewtext": {
+      "type": "string"
+    },
+    "overviewtext_en": {
+      "type": "string"
     }
   }
 }
