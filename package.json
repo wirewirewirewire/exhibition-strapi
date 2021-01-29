@@ -5,6 +5,7 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
+    "develop:strapi": "strapi develop --watch-admin",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
@@ -19,6 +20,7 @@
     "strapi-connector-bookshelf": "3.4.0",
     "strapi-plugin-content-manager": "3.4.0",
     "strapi-plugin-content-type-builder": "3.4.0",
+    "strapi-plugin-documentation": "^3.4.0",
     "strapi-plugin-email": "3.4.0",
     "strapi-plugin-graphql": "3.4.0",
     "strapi-plugin-upload": "3.4.0",

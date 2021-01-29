@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "partizipations",
   "info": {
-    "name": "Partizipation"
+    "name": "Partizipation",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,8 +11,28 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Question": {
+    "uuid": {
+      "type": "uid"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "public": {
+      "type": "boolean"
+    },
+    "question": {
       "type": "biginteger"
+    },
+    "text": {
+      "type": "text"
     }
   }
 }
