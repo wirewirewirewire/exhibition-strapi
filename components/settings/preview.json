@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_settings_previews",
+  "info": {
+    "name": "preview",
+    "icon": "table-tennis"
+  },
+  "options": {},
+  "attributes": {
+    "previewurl": {
+      "type": "string"
+    },
+    "resolutionWidth": {
+      "type": "biginteger"
+    },
+    "resolutionHeight": {
+      "type": "biginteger"
+    }
+  }
+}

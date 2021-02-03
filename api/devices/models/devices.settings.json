@@ -21,7 +21,8 @@
         "players.react-mediaplayer",
         "players.json-player",
         "players.files",
-        "players.mediastation-bewegungen"
+        "players.mediastation-bewegungen",
+        "settings.preview"
       ]
     }
   }

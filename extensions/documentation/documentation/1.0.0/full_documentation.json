@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/29/2021 12:08:25 AM"
+    "x-generation-date": "02/03/2021 2:09:42 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3192,7 +3192,8 @@
                         "players.react-mediaplayer",
                         "players.json-player",
                         "players.files",
-                        "players.mediastation-bewegungen"
+                        "players.mediastation-bewegungen",
+                        "settings.preview"
                       ]
                     },
                     "id": {
@@ -3319,7 +3320,8 @@
                         "players.react-mediaplayer",
                         "players.json-player",
                         "players.files",
-                        "players.mediastation-bewegungen"
+                        "players.mediastation-bewegungen",
+                        "settings.preview"
                       ]
                     },
                     "id": {
@@ -3514,7 +3516,8 @@
                         "players.react-mediaplayer",
                         "players.json-player",
                         "players.files",
-                        "players.mediastation-bewegungen"
+                        "players.mediastation-bewegungen",
+                        "settings.preview"
                       ]
                     },
                     "id": {
@@ -3537,7 +3540,8 @@
                         "players.react-mediaplayer",
                         "players.json-player",
                         "players.files",
-                        "players.mediastation-bewegungen"
+                        "players.mediastation-bewegungen",
+                        "settings.preview"
                       ]
                     },
                     "id": {
@@ -3627,7 +3631,8 @@
                         "players.react-mediaplayer",
                         "players.json-player",
                         "players.files",
-                        "players.mediastation-bewegungen"
+                        "players.mediastation-bewegungen",
+                        "settings.preview"
                       ]
                     },
                     "id": {
@@ -3676,6 +3681,36 @@
                           }
                         }
                       }
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "players.mediaplayer",
+                        "players.react-mediaplayer",
+                        "players.json-player",
+                        "players.files",
+                        "players.mediastation-bewegungen",
+                        "settings.preview"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "previewurl": {
+                      "type": "string"
+                    },
+                    "resolutionWidth": {
+                      "type": "integer"
+                    },
+                    "resolutionHeight": {
+                      "type": "integer"
                     }
                   },
                   "required": [
@@ -3709,7 +3744,8 @@
                         "players.react-mediaplayer",
                         "players.json-player",
                         "players.files",
-                        "players.mediastation-bewegungen"
+                        "players.mediastation-bewegungen",
+                        "settings.preview"
                       ]
                     },
                     "id": {
@@ -3836,7 +3872,8 @@
                         "players.react-mediaplayer",
                         "players.json-player",
                         "players.files",
-                        "players.mediastation-bewegungen"
+                        "players.mediastation-bewegungen",
+                        "settings.preview"
                       ]
                     },
                     "id": {
@@ -4031,7 +4068,8 @@
                         "players.react-mediaplayer",
                         "players.json-player",
                         "players.files",
-                        "players.mediastation-bewegungen"
+                        "players.mediastation-bewegungen",
+                        "settings.preview"
                       ]
                     },
                     "id": {
@@ -4054,7 +4092,8 @@
                         "players.react-mediaplayer",
                         "players.json-player",
                         "players.files",
-                        "players.mediastation-bewegungen"
+                        "players.mediastation-bewegungen",
+                        "settings.preview"
                       ]
                     },
                     "id": {
@@ -4144,7 +4183,8 @@
                         "players.react-mediaplayer",
                         "players.json-player",
                         "players.files",
-                        "players.mediastation-bewegungen"
+                        "players.mediastation-bewegungen",
+                        "settings.preview"
                       ]
                     },
                     "id": {
@@ -4193,6 +4233,36 @@
                           }
                         }
                       }
+                    }
+                  },
+                  "required": [
+                    "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "players.mediaplayer",
+                        "players.react-mediaplayer",
+                        "players.json-player",
+                        "players.files",
+                        "players.mediastation-bewegungen",
+                        "settings.preview"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "previewurl": {
+                      "type": "string"
+                    },
+                    "resolutionWidth": {
+                      "type": "integer"
+                    },
+                    "resolutionHeight": {
+                      "type": "integer"
                     }
                   },
                   "required": [
