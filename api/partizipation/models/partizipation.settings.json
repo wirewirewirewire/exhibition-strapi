@@ -33,6 +33,9 @@
     },
     "text": {
       "type": "text"
+    },
+    "deviceId": {
+      "type": "integer"
     }
   }
 }

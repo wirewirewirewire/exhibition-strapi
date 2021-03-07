@@ -601,6 +601,9 @@
           "text": {
             "type": "string"
           },
+          "deviceId": {
+            "type": "integer"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -620,6 +623,9 @@
           },
           "text": {
             "type": "string"
+          },
+          "deviceId": {
+            "type": "integer"
           },
           "published_at": {
             "type": "string",
