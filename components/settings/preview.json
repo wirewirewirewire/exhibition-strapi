@@ -2,7 +2,8 @@
   "collectionName": "components_settings_previews",
   "info": {
     "name": "preview",
-    "icon": "table-tennis"
+    "icon": "table-tennis",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,6 +15,20 @@
     },
     "resolutionHeight": {
       "type": "biginteger"
+    },
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "customPreview": {
+      "type": "json"
     }
   }
 }
